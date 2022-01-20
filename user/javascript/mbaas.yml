@@ -1,0 +1,6 @@
+name: js_mbaas
+parent: default
+
+matches:
+  - trigger: ":jld"
+    replace: "this.logger.debug($|$);"

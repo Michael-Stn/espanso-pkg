@@ -1,0 +1,6 @@
+name: js_vanilla
+parent: default
+
+matches:
+  - trigger: ":jcl"
+    replace: "console.log('$|$');"

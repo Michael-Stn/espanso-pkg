@@ -1,0 +1,12 @@
+undo_backspace: false
+matches:
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%d/%m/%Y"
