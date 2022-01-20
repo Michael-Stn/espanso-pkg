@@ -2,5 +2,5 @@ name: js_vanilla
 parent: default
 
 matches:
-  - trigger: ":jcl"
+  - trigger: ":clog"
     replace: "console.log('$|$');"

@@ -2,5 +2,5 @@ name: js_mbaas
 parent: default
 
 matches:
-  - trigger: ":jld"
+  - trigger: ":logd"
     replace: "this.logger.debug($|$);"

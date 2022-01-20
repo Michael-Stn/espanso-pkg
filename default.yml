@@ -1,8 +1,6 @@
 undo_backspace: false
-matches:
-  - trigger: ":espanso"
-    replace: "Hi there!"
 
+matches:
   - trigger: ":date"
     replace: "{{mydate}}"
     vars:
