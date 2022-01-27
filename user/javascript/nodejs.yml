@@ -1,0 +1,6 @@
+name: js_nodejs
+parent: default
+
+matches:
+  - trigger: ":jdev"
+    replace: "npm run dev\n"

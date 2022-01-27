@@ -1,0 +1,21 @@
+name: gcp_kubectl
+parent: default
+
+matches:
+  - trigger: ":gpods"
+    replace: "kubectl get pods\n"
+
+  - trigger: ":gpodg"
+    form: "kubectl get pods | grep {{name}}\n"
+
+  - trigger: ":gsvcs"
+    replace: "kubectl get services\n"
+  
+  - trigger: ":gsvcg"
+    form: "kubectl get services | grep {{name}}\n"
+
+  - trigger: ":gport"
+    form: "kubectl port-forward svc/{{service}} {{port}}:80\n"
+
+  - trigger: ":glogs"
+    form: "kubectl logs {{pod}} -f\n"
