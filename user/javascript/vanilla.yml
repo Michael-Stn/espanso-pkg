@@ -3,4 +3,4 @@ parent: default
 
 matches:
   - trigger: ":clog"
-    replace: "console.log('$|$');"
+    replace: "console.log($|$);"

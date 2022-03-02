@@ -33,7 +33,7 @@ Listado de Snippets disponibles segmentando por categorías.
 
 | Trigger  |        Replace         | Sección  |
 |:--------:|:----------------------:|----------|
-|  `:clog` | console.log('');       | vanilla  |
+|  `:clog` | console.log();         | vanilla  |
 |  `:logd` | this.logger.debug();   | mbaas    |
 |  `:jdev` | npm run dev\n          | nodejs   |
 
